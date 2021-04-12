@@ -1,6 +1,6 @@
 {
     "name": "codeat3/blade-fontaudio",
-    "description": "A package to easily make use of Font Audio in your Laravel Blade views.",
+    "description": "A package to easily make use of \"FontAudio Icons\" in your Laravel Blade views. ",
     "keywords": ["Blade", "fontaudio", "Laravel"],
     "homepage": "https://github.com/codeat3/blade-fontaudio",
     "license": "MIT",
