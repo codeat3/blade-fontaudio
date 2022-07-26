@@ -17,24 +17,24 @@ final class BladeFontAudioServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-fontaudio', []);
 
-            $factory->add('font-audio', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('font-audio', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
         });
     }
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/blade-fontaudio.php', 'blade-fontaudio');
+        $this->mergeConfigFrom(__DIR__ . '/../config/blade-fontaudio.php', 'blade-fontaudio');
     }
 
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/svg' => public_path('vendor/blade-fontaudio'),
+                __DIR__ . '/../resources/svg' => public_path('vendor/blade-fontaudio'),
             ], 'blade-fontaudio');
 
             $this->publishes([
-                __DIR__.'/../config/blade-fontaudio.php' => $this->app->configPath('blade-fontaudio.php'),
+                __DIR__ . '/../config/blade-fontaudio.php' => $this->app->configPath('blade-fontaudio.php'),
             ], 'blade-fontaudio-config');
         }
     }
