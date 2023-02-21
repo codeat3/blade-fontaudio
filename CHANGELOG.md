@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-fontaudio/compare/1.4.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-fontaudio/compare/1.5.0...HEAD)
+
+## [1.5.0](https://github.com/codeat3/blade-fontaudio/compare/1.4.0...1.5.0) - 2023-02-21
+
+### What's Changed
+
+- chore: update icons with the latest commit [aae7c48](https://github.com/fefanto/fontaudio/commit/aae7c48175493e08312e299dfbc594af4a47aaaa) by @github-actions in https://github.com/codeat3/blade-fontaudio/pull/5
+
+**Full Changelog**: https://github.com/codeat3/blade-fontaudio/compare/1.4.0...1.5.0
 
 ## [1.4.0](https://github.com/codeat3/blade-fontaudio/compare/1.3.0...1.4.0) - 2023-02-18
 
